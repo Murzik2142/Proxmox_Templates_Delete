@@ -14,10 +14,10 @@ Not tested on earlier versions
 Role Variables
 --------------
 
-proxmox_api_host: "127.0.0.1"\
-proxmox_api_user: "root@pam"\
-proxmox_api_password: "password"\
-proxmox_node: "pve"\ 
+___proxmox_api_host:___ "127.0.0.1"\
+___proxmox_api_user:___ "root@pam"\
+___proxmox_api_password:___ "password"\
+___proxmox_node:___ "pve"\
 ___vmid:___ 100 - ID template in proxmox
 
 Dependencies
