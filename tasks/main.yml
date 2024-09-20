@@ -1,0 +1,7 @@
+---
+# tasks file for Proxmox_Templates_Delete
+- name: Test proxmox
+  ansible.builtin.import_tasks: task_1_preinit.yml
+  
+- name: Delete Template
+  ansible.builtin.import_tasks: task_2_delete_template.yml

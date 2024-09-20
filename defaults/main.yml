@@ -1,0 +1,9 @@
+---
+# defaults file for Proxmox_Templates_Delete
+proxmox_api_host: "127.0.0.1"
+proxmox_api_user: "root@pam"
+proxmox_api_password: "password"
+proxmox_node: "pve" 
+
+# Templates ID
+vmid: 100
